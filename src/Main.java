@@ -39,11 +39,11 @@ public class Main {
         System.out.println("Задание 3 ");
         int[] payments = {11_000, 8_000, 9_000, 12_000, 7_000};
         int sum = 0;
-        int mediumSum = 0;
+        int mediumSum;
         for (int i = 0; i < payments.length; i++) {
             sum = sum + payments[i];
-            mediumSum = sum / payments.length;
         }
+        mediumSum = sum / payments.length;
         System.out.println("Средняя сумма трат за месяц составила " + mediumSum + " рублей");
     }
 
